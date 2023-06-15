@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit some common twrp stuff.
-$(call inherit-product, vendor/twr/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from X6517 device
 $(call inherit-product, device/infinix/X6517/device.mk)
